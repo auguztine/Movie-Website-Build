@@ -11,7 +11,7 @@
 /* Color for the body = #20262E */
 /* highlight color = #chocolate */
 body {
-    background-color: #20262E;
+    background-color: #0d1117;
 }
 header {
     display: flex;
@@ -84,13 +84,13 @@ header {
 }
 
 .side-nav {
-    background-color:#20262E;
+    background-color:#161b22;
     border-right: solid 0.5px #F99417;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;    
 }
 .main-1 {
-    background-color: #20262E;
+    background-color: #0d1117;
 }
 .head-back-img {
     background-image: url("./img/img4.jpg");
