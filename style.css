@@ -63,15 +63,15 @@ header {
     font-style: italic;
     font-size: 14px;
 }
-.links{
+.menubar-icons{
     display: flex;
     margin-right: 5%;
 }
-.links li {
+.menubar-icons li {
     padding: 18px 0 18px 30px;
     
 }
-.links li a {
+.menubar-icons li a {
     font-size: 16px;
     font-weight: 500;
     color: white;
@@ -85,7 +85,7 @@ header {
 
 .side-nav {
     background-color:#161b22;
-    border-right: solid 0.5px #F99417;
+    /* border-right: solid 0.5px #F99417; */
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;    
 }
@@ -174,37 +174,57 @@ header {
     color: chocolate;
 }
 .menu-1{
-    margin: 25% 0 10% 10%;
+    margin: 25% 5% 10% 4%;
 }
 .menu-1 li{
-    margin-top: 5px;
-    /* border: solid 0.5px black; */
-    height: 45px;
+    margin-top: 20px;
+    /* border: solid 0.5px #F99417; */
+    border-left: solid 3px #F99417;
+    height: 42px;
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 15% 85%;
     align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* border-radius: 8px; */
     
 }
+
 .menu-1 li a {
    padding-left: 5px;
    color: whitesmoke;
+   font-size: 14px;
 }
-
+.menu-1 li:hover {
+    background-color: #e28008;
+    color: whitesmoke;
+}
 
 .menu-2{
-    margin: 10% 0 0 10%;
+    margin: 10% 5% 0 4%;
 }
 .menu-2 li{
-    margin-top: 5px;
-    /* border: solid 0.5px black; */
-    height: 45px;
+    margin-top: 20px;
+    border-left: solid 3px #F99417;
+    /* border-bottom: solid 0.5px #F99417; */
+    height: 42px;
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 15% 85%;
     align-items: center;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* border-radius: 8px; */
+
+}
+.menu-2 li:hover {
+    background-color: #e28008;
+    color: whitesmoke;
 }
 .menu-2 li a {
     margin-left: 10px;
     color: whitesmoke;
+    font-size: 14px;
+    
 }
 .nav-hr-1 {
     width: 80%;
@@ -224,18 +244,27 @@ header {
     background-color: black;
 }
 .side-nav-settings{
-    margin: 45% 0 0 10%;
+    margin: 35% 5% 0 4%;
 }
 .side-nav-settings li{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     display: grid;
-    grid-template-columns: 10% 90%;
+    grid-template-columns: 15% 85%;
     align-items: center;
+    /* border: solid 0.5px #F99417; */
+    height: 42px;
+    border-radius: 8px;
 }
-.side-nav-settings li a {
-    margin-left: 8px;
+.side-nav-settings li:hover {
+    background-color:  #e28008;
     color: whitesmoke;
 }
+.side-nav-settings li a {
+    padding-left: 8px;
+    color: whitesmoke;
+    font-size: 14px;
+}
+
 
 /*------------------ICONS STYLE-----------------------*/
 .fa-comments {
@@ -247,24 +276,30 @@ header {
 .fa-calendar-days{
     font-size: 20px;
     color: green;
+    padding-left: 10px;
 }
 .fa-heart-circle-plus {
     font-size: 20px;
     color: red;
+    padding-left: 10px;
 }
 .fa-chart-line {
     font-size: 20px;
     color: blue;
+    padding-left: 10px;
 }
 .fa-masks-theater {
     font-size: 20px;
-    color: chocolate;
+    color: pink;
+    padding-left: 10px;
 }
 .fa-gear {
     font-size: 20px;
     color: yellow;
+    padding-left: 10px;
 }
 .fa-right-from-bracket {
     font-size: 20px;
     color: pink;
+    padding-left: 10px;
 }
