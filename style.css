@@ -187,6 +187,8 @@ header {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     /* border-radius: 8px; */
+    transition: background-color 0.5s;
+    transition-timing-function: ease-out;
     
 }
 
@@ -214,6 +216,8 @@ header {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     /* border-radius: 8px; */
+    transition: background-color 0.5s;
+    transition-timing-function: ease-out;
 
 }
 .menu-2 li:hover {
@@ -254,6 +258,8 @@ header {
     /* border: solid 0.5px #F99417; */
     height: 42px;
     border-radius: 8px;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-out;
 }
 .side-nav-settings li:hover {
     background-color:  #e28008;
