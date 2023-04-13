@@ -202,6 +202,7 @@ header {
     color: whitesmoke;
 }
 
+
 .menu-2{
     margin: 10% 5% 0 4%;
 }
@@ -224,6 +225,7 @@ header {
     background-color: #e28008;
     color: whitesmoke;
 }
+
 .menu-2 li a {
     margin-left: 10px;
     color: whitesmoke;
@@ -275,37 +277,39 @@ header {
 /*------------------ICONS STYLE-----------------------*/
 .fa-comments {
     font-size: 20px;
+    color: #e28008;
 }
 .fa-bell {
     font-size: 22px;
+    color: #e28008;
 }
 .fa-calendar-days{
     font-size: 20px;
-    color: green;
+    color: lightgreen;
     padding-left: 10px;
 }
 .fa-heart-circle-plus {
     font-size: 20px;
-    color: red;
+    color: lightcoral;
     padding-left: 10px;
 }
 .fa-chart-line {
     font-size: 20px;
-    color: blue;
+    color:royalblue;
     padding-left: 10px;
 }
 .fa-masks-theater {
     font-size: 20px;
-    color: pink;
+    color: lightsalmon;
     padding-left: 10px;
 }
 .fa-gear {
     font-size: 20px;
-    color: yellow;
+    color: #e28008;
     padding-left: 10px;
 }
 .fa-right-from-bracket {
     font-size: 20px;
-    color: pink;
+    color: #e28008;
     padding-left: 10px;
 }
