@@ -103,6 +103,19 @@ header {
     background-size: cover;
     background-position: center;
 }
+.carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  img {
+    
+    width: 90%;
+    height: 60vh;
+    object-fit: cover;
+    top: 0;
+    margin-left: 5.5%;
+  }
 .body-text {
     position: absolute;
     height: 25%;
@@ -173,8 +186,13 @@ header {
 .profilePic h3 {
     color: chocolate;
 }
+.browse-btn {
+    margin-left: 4%;
+    margin-top: 15%;;
+    color: #F99417;
+}
 .menu-1{
-    margin: 25% 5% 10% 4%;
+    margin: 7% 5% 10% 4%;
 }
 .menu-1 li{
     margin-top: 20px;
@@ -249,6 +267,14 @@ header {
     margin-top: 20px;
     background-color: black;
 }
+.nav-hr-3 {
+    width: 90%;
+    background-color: gray;
+    height: 0.5px;
+    margin-left: 5%;
+    border: none;
+    background-color: black;
+}
 .side-nav-settings{
     margin: 35% 5% 0 4%;
 }
@@ -277,11 +303,11 @@ header {
 /*------------------ICONS STYLE-----------------------*/
 .fa-comments {
     font-size: 20px;
-    color: #e28008;
+    color: whitesmoke;
 }
 .fa-bell {
     font-size: 22px;
-    color: #e28008;
+    color: whitesmoke#e28008;
 }
 .fa-calendar-days{
     font-size: 20px;

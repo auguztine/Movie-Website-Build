@@ -6,7 +6,7 @@ const movieData = [
     },
     {
         img: "./img/img2.jpg",
-        movieName: "Snowwfall",
+        movieName: "Snowfall",
         text: "asjdhbalsjdb"
     },
     {
@@ -21,4 +21,12 @@ const movieData = [
     }
 ];
 
-export default movieData;
+const images = []
+
+for (let i = 0; i < movieData.length; i++) {
+    const image = new Image();
+    image.src = movieData[i];
+    images.push(image);
+  }
+
+  export default movieData;
