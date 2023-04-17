@@ -27,6 +27,6 @@ for (let i = 0; i < movieData.length; i++) {
     const image = new Image();
     image.src = movieData[i];
     images.push(image);
-  }
+}
 
   export default movieData;
