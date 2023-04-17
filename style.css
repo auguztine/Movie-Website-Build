@@ -103,19 +103,24 @@ header {
     background-size: cover;
     background-position: center;
 }
-.carousel {
-    display: flex;
-    overflow: hidden;
-  }
-  
-  img {
+img {
     
     width: 90%;
     height: 60vh;
     object-fit: cover;
     top: 0;
     margin-left: 5.5%;
-  }
+}
+.slide-btns {
+    background-color: red;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    position: absolute;
+    top: 62%;
+    left: 90%;
+}
+
 .body-text {
     position: absolute;
     height: 25%;
@@ -216,7 +221,7 @@ header {
    font-size: 14px;
 }
 .menu-1 li:hover {
-    background-color: #e28008;
+    background-color: rgb(226, 128, 8, 0.4);
     color: whitesmoke;
 }
 
@@ -240,7 +245,7 @@ header {
 
 }
 .menu-2 li:hover {
-    background-color: #e28008;
+    background-color: rgb(226, 128, 8, 0.4);
     color: whitesmoke;
 }
 
@@ -290,7 +295,7 @@ header {
     transition-timing-function: ease-out;
 }
 .side-nav-settings li:hover {
-    background-color:  #e28008;
+    background-color:  rgb(226, 128, 8, 0.4);
     color: whitesmoke;
 }
 .side-nav-settings li a {
